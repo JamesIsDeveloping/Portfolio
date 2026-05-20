@@ -176,7 +176,7 @@ const History: React.FC = () => {
                             Want to get in touch?{' '}
                             <a
                                 className="text-primary dark:text-dark-primary border-b border-dashed"
-                                href='mailto:jamesrsatherley@gmail.com?subject="Hey!"'
+                                href="mailto:james@satherley.org?subject=Hey!"
                             >
                                 Flick me a message
                             </a>
