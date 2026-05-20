@@ -40,7 +40,17 @@ const History: React.FC = () => {
                     <div className="hidden flex-col items-center 2xl:flex">
                         <div className="mt-[30px] flex flex-row">
                             <div className="w-56 text-secondary dark:text-dark-secondary text-about">
-                                Aug 2024 - Current
+                                Jan 2026 - Current
+                            </div>
+                            <div className="border-2 rounded-full h-5 w-5 border-primary dark:border-dark-primary shadow-about dark:shadow-dark-about" />
+                        </div>
+                        <div className="flex flex-row">
+                            <div className="w-56 text-secondary dark:text-dark-secondary" />
+                            <div className="h-[60px] w-0 border-l-2 border-primary dark:border-dark-secondary shadow-about dark:shadow-dark-about-secondary" />
+                        </div>
+                        <div className="flex flex-row">
+                            <div className="w-56 text-secondary dark:text-dark-secondary text-about">
+                                Aug 2024 - Jan 2026
                             </div>
                             <div className="border-2 rounded-full h-5 w-5 border-primary dark:border-dark-primary shadow-about dark:shadow-dark-about" />
                         </div>
@@ -90,13 +100,26 @@ const History: React.FC = () => {
                             Currently, at{' '}
                             <a
                                 className="text-primary dark:text-dark-primary border-b border-dashed"
+                                href="https://www.nzdf.mil.nz/"
+                                rel="noreferrer"
+                                target="_blank"
+                            >
+                                NZDF
+                            </a>
+                            , working as a Software Engineer contributing to systems that support workforce
+                            remuneration.
+                        </span>
+                        <span className="text-lg pt-3 text-secondary dark:text-dark-secondary">
+                            Prior to that, at{' '}
+                            <a
+                                className="text-primary dark:text-dark-primary border-b border-dashed"
                                 href="https://www.insourcerecruit.com/"
                                 rel="noreferrer"
                                 target="_blank"
                             >
                                 Insource
                             </a>
-                            , am part of a team upkeeping a React, PHP web appliation.
+                            , was part of a team upkeeping a React, PHP web application.
                         </span>
                         <span className="text-lg pt-3 text-secondary dark:text-dark-secondary">
                             During my last position I was developing both internal and external tools for{' '}

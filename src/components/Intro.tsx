@@ -10,23 +10,20 @@ const Intro: React.FC = () => {
                     Hey, I'm <span className="text-primary dark:text-dark-primary">James</span>
                 </span>
                 <span className="text-2xl pt-4 text-secondary dark:text-dark-secondary">
-                    I'm a <span className=" text-primary dark:text-dark-primary">Software Engineer</span> working on UX
-                    design
+                    I'm a <span className=" text-primary dark:text-dark-primary">Software Engineer</span> who goes
+                    outside sometimes
                 </span>
                 <span className="text-lg pt-3 text-secondary dark:text-dark-secondary">
                     Currently working at{' '}
                     <a
                         className="text-primary dark:text-dark-primary border-b border-dashed"
-                        href="https://www.insourcerecruit.com/"
+                        href="https://www.nzdf.mil.nz/"
                         rel="noreferrer"
                         target="_blank"
                     >
-                        Insource
+                        NZDF
                     </a>
                 </span>
-                {/* <span className="text-sm pt-3 text-secondary dark:text-dark-secondary">
-                    This site is <span className=" text-primary dark:text-dark-primary">Under Development</span>
-                </span> */}
                 <div className="flex justify-center 2xl:pr-[30%] pt-[80%] xxl:pt-[60%]">
                     <a onClick={(e) => scrollToTop(e, 1)} href="#about">
                         <JumpingMouse />
