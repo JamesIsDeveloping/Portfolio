@@ -114,12 +114,13 @@ const UnderConstruction: React.FC = () => {
                         onMouseEnter={handleNameEnter}
                         onMouseLeave={handleNameLeave}
                         style={{
-                            fontSize: 'clamp(2.2rem, 6vw, 4.5rem)',
+                            fontSize: 'clamp(1rem, 5.5vw, 4.5rem)',
                             fontWeight: 300,
                             margin: '0 0 0.25rem',
                             letterSpacing: '-0.02em',
                             lineHeight: 1.1,
                             userSelect: 'none',
+                            whiteSpace: 'nowrap',
                         }}
                     >
                         {NAME.split('').map((char, i) => (
